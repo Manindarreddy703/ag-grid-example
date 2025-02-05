@@ -84,7 +84,7 @@ const Table = () => {
             {isModalOpen && (
                 <div className="fixed inset-0 bg-gray-500 bg-opacity-50 flex items-center justify-center z-50">
                     <div className="bg-white p-6 rounded shadow-lg w-1/2">
-                        <h2 className="text-xl mb-4">Edit Rule</h2>
+                        <h2 className="text-xl mb-4">Edit</h2>
                         <form>
                             <div className="grid grid-cols-2 gap-4">
                                 <input name="ruleName" value={formData.ruleName} onChange={handleChange} placeholder="Rule Name" className="border p-2" />
